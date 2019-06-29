@@ -1,0 +1,29 @@
+{
+  "name": "typeproof",
+  "version": "1.0.7",
+  "description": "Perform common operations without distinction to type",
+  "main": "./core/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir build",
+    "prepublish": ""
+  },
+  "keywords": [
+    "javascript",
+    "type"
+  ],
+  "files": [
+    "core"
+  ],
+  "author": "April Gray <aprgray5@gmail.com> (https://aprgray.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.5.0",
+    "cross-env": "^5.1.3"
+  }
+}
